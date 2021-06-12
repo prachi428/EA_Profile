@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="proj1.gocontroller">
+   <children>
+      <AnchorPane layoutX="-7.0" layoutY="-4.0" prefHeight="450.0" prefWidth="400.0" style="-fx-background-color: black;">
+         <children>
+            <Label layoutX="87.0" layoutY="52.0" prefHeight="100.0" prefWidth="226.0" text="GAME OVER :(" textFill="#10e445">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </Label>
+            <Button fx:id="restartbutton" layoutX="257.0" layoutY="330.0" mnemonicParsing="false" onAction="#handlerestartButtonAction" prefHeight="40.0" text="RESTART" />
+            <Button fx:id="mainpagebutton" layoutX="74.0" layoutY="330.0" mnemonicParsing="false" onAction="#handlemainpageButtonAction" prefHeight="40.0" text="MAIN PAGE" />
+            <Label layoutX="134.0" layoutY="165.0" text="SCORE : 0" textFill="#162edb">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="113.0" layoutY="208.0" text="HIGH SCORE : 0" textFill="#190edd">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

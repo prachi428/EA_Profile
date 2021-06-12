@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="450.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj1.mpcontroller">
+   <children>
+      <Button fx:id="leaderboardbutton" layoutX="22.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleleaderboardButtonAction" prefHeight="40.0" prefWidth="117.0" text="LEADER BOARD" />
+      <Button fx:id="resumebutton" layoutX="162.0" layoutY="296.0" mnemonicParsing="false" onAction="#handleresumeButtonAction" prefHeight="40.0" prefWidth="99.0" text="RESUME" />
+      <Button fx:id="startbutton" layoutX="166.0" layoutY="240.0" mnemonicParsing="false" onAction="#handlestartButtonAction" prefHeight="40.0" prefWidth="91.0" text="START" />
+      <Label layoutX="149.0" layoutY="73.0" prefHeight="40.0" prefWidth="126.0" text="Snake VS Block" textFill="#1aa12a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="instructionbutton" layoutX="271.0" layoutY="27.0" mnemonicParsing="false" onAction="#handleinstructionButtonAction" prefHeight="40.0" prefWidth="105.0" text="INSTRUCTIONS" />
+      <Button fx:id="exitbutton" layoutX="171.0" layoutY="359.0" mnemonicParsing="false" onAction="#handleexitButtonAction" prefHeight="40.0" prefWidth="82.0" text="EXIT" />
+      <ImageView fitHeight="130.0" fitWidth="117.0" layoutX="154.0" layoutY="113.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../slithersnakevsblock-icon512.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

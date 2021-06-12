@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proj1.lpcontroller">
+   <children>
+      <Button fx:id="mainpagebutton" layoutX="161.0" layoutY="45.0" mnemonicParsing="false" onAction="#handlemainpageButtonAction" prefHeight="40.0" text="MAIN PAGE" />
+      <TableView layoutX="57.0" layoutY="104.0" prefHeight="302.0" prefWidth="291.0" style="-fx-background-color: pink;">
+        <columns>
+          <TableColumn prefWidth="147.0" sortType="DESCENDING" text="SCORE" />
+          <TableColumn prefWidth="142.0" sortType="DESCENDING" text="DATE" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
